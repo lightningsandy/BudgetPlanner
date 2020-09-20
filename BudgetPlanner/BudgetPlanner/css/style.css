@@ -1,0 +1,252 @@
+
+/********************************************** DEFAULT MODIFICATION ********************************************/
+
+html,body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+
+body{
+    padding-top:100px;
+    background-size: cover;
+}
+.bg-success,.btn-success{
+    background-color:  rgb(26, 148, 128);
+}
+.btn-success:hover{
+    background-color:  rgb(9, 109, 92);
+}
+
+.btn-outline-success{
+    border: solid rgb(59, 134, 122) 1px;
+    color: rgb(59, 134, 122) ;
+}
+
+.btn-outline-success:hover{
+    background-color:  rgb(26, 148, 128);
+    color: #f8f8f8;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.wrapper {
+    min-height: 90%;
+    margin-bottom: -100px;
+}
+
+footer {
+    padding: 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    height: 40px;
+    margin-top: 0px;
+    
+}
+
+.bgGray{
+    background-color:rgb(248, 249, 254)
+}
+
+.mainContainer{
+    min-height:100%;
+   position:relative;
+}
+
+/********************************************** MAIN PAGE MODIFICATION ********************************************/
+
+#content{
+    min-height: 810px;
+}
+
+#banner_image {
+    padding-bottom: 0;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/BudgetPic.jpg) no-repeat center center;
+    height: 100vh;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 2600px;
+   margin-top: 25vh;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    } 
+    footer{
+        text-align:left;
+    }
+
+}
+
+/********************************************** SIGNUP AND LOGIN PAGE MODIFICATION ********************************************/
+.formModify{
+    background-color:white;
+    margin-top: 20vh;
+    border: solid rgba(0, 0, 0, 0.1) 1px;
+    padding: 20px 0 0px 0;
+    margin-bottom: 0;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 15px;
+    border: solid rgba(0, 0, 0, 0.1) 1px;
+}
+
+.signup{
+    margin: 5px 0 15px 0;
+    font-weight: 400;
+}
+
+.redirectSignup{
+   background-color: rgb(245, 245, 245);
+   height: 50px;
+   padding-top: 10px;
+}
+
+.formPad{
+    padding: 0 25px 0 25px ;
+}
+
+.lowerBreak{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.signBtn{
+    margin-bottom: 30px;
+}
+
+/********************************************** ABOUT-US PAGE MODIFICATION ********************************************/
+
+.centerContent{
+    margin-top: 15vh;
+}
+
+.aboutPageHeading{
+    margin-top: 40px;
+}
+
+
+/********************************************** HOME PAGE MODIFICATION ********************************************/
+
+.createPlan{
+    width: 300px;
+    height: 200px;
+    background-color: white; 
+    border: solid rgba(0, 0, 0, 0.1) 1px;
+    padding: 85px 0 0 30px;
+    
+}
+
+/********************************************** CREATE-NEW-PLAN PAGE MODIFICATION ********************************************/
+
+.createPlanHeading{
+    margin: 0;
+    font-weight: 400;
+    color: #f8f8f8;
+    padding: 15px 0 15px 0;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.createFormModify{
+    background-color:white;
+    margin-top: 20vh;
+    border: solid rgba(0, 0, 0, 0.1) 1px;
+    padding: 0;
+}
+
+
+/********************************************** VIEW-PLAN PAGE MODIFICATION ********************************************/
+
+.positionPlan{
+    margin-top: 10vh;
+}
+
+.modifyHeader{
+    margin: 0;
+    padding: 5px;
+}
+ 
+.black{
+    color: #101010;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.formBorder{
+    border: solid rgba(0, 0, 0, 0.1) 1px;
+}
+
+.row-bottom-margin { 
+    margin-bottom: 0;
+ }
+
+ .container-margin-top{
+     margin-top: 15px;
+ }
+
+ .border-top-zero{
+    border-top: 0;
+ }
+
+ .border-bottom-zero{
+    border-bottom: 0;
+ }
+
+ .borderZero{
+     border: 0;
+ }
+
+ #foo {
+    position: absolute;
+    top: 85%;
+    right: 2%;
+ }
+
+
+ .glyphicon.glyphicon-plus-sign {
+    font-size: 75px;
+    color: green;
+} 
+
+
+
+.pad-bot-zero{
+    padding-bottom: 0;
+}
+
+.pad-top-zero{
+    padding-top: 0;
+}
+
+.margin-right{
+    margin-right: 50px;
+}
+
